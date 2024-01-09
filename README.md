@@ -12,30 +12,30 @@ Jerónimo Sola
 
 **python api.py** --> simulacion de servidor local  
 
-## Routes
+## API endpoints
 
 BASE_URL/entramiento_red  [GET]  ---> Entrenar red neuronal con datos de muestra
 
 BASE_URL/comprobar_riesgo [GET]  ---> Enviar datos de un caso especifico para obtener respuesta
 
-## ApiKey de pruebas
+## ApiKey para pruebas
 
-SAxJI93958X909x5674!kf --> FREEMIUM
+SAxJI93958X909x5674!kf --> FREEMIUM  
 JCoweiw93xRIWQxxxte536 --> PREMIUM
 
 ## Dependencias
 
-bson
-cachetools
-flask
-datetime
-time
-pandas
-numpy
-sklearn
-keras
-tensorflow
-matplotlib
+bson  
+cachetools  
+flask  
+datetime  
+time  
+pandas  
+numpy  
+sklearn  
+keras  
+tensorflow  
+matplotlib  
 pymongo
 
 ## Documentacion 
