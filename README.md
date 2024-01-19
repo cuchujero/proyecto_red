@@ -10,6 +10,8 @@ Jerónimo Sola
 
 ## Instrucciones
 
+**pip install bson cachetools flask pandas numpy scikit-learn keras tensorflow matplotlib pymongo==3.8.0** --> instalación de dependencias
+
 **python api.py** --> simulacion de servidor local  
 
 ## API endpoints
