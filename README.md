@@ -10,7 +10,7 @@ Jerónimo Sola
 
 ## Instrucciones
 
-**pip install bson cachetools flask pandas numpy scikit-learn keras tensorflow matplotlib pymongo==3.8.0** --> instalación de dependencias
+**pip install bson cachetools flask pandas numpy scikit-learn keras tensorflow matplotlib joblib pymongo==3.8.0** --> instalación de dependencias
 
 **python api.py** --> simulacion de servidor local  
 
@@ -38,7 +38,9 @@ sklearn
 keras  
 tensorflow  
 matplotlib  
+joblib
 pymongo
+
 
 ## Documentacion 
 

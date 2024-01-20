@@ -10,6 +10,7 @@ from keras.models import Sequential
 from keras.layers import Dense 
 from keras.optimizers import Adam # Optimizador
 import matplotlib.pyplot as plt # Para graficar
+from joblib import dump
 
 # Entramiento de red
 
@@ -39,6 +40,9 @@ def entrenamiento_red():
     scaled_X_test = scaler.fit_transform(X_test)
     scaled_X_test = pd.DataFrame(scaled_X_test, columns=X_test.columns)
 
+    # Guardo escalas
+    dump(scaler, 'scaler/scaler.joblib')
+
     # Creo el modelo
     model = Sequential()
 
@@ -59,7 +63,7 @@ def entrenamiento_red():
     y_pred = model.predict(scaled_X_test)
 
     # Guardo modelo
-    model.save("model.keras")
+    model.save("model/model.keras")
 
     # Visualización de la pérdida
     plt.plot(historicalModel.history['loss'], label='Training Loss')
